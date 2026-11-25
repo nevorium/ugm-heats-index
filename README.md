@@ -5,3 +5,5 @@ Peta interaktif LST dan NDVI dari raster yang tersedia di `raster-data/`. Jalank
 Raster dibaca langsung di browser dan koordinatnya ditransformasikan dari WGS 84 / UTM zona 49S. Nilai pada panel adalah sampel piksel terdekat (resolusi 30 m), bukan nilai rata-rata wilayah. Titik pengamatan merupakan contoh eksplorasi, bukan batas atau klasifikasi tutupan lahan yang tervalidasi. LST ditampilkan dalam °C sesuai rentang data; NDVI tanpa satuan.
 
 Saat kursor berada di atas raster, batas yang menyala menunjukkan satu piksel raster 30 m, bukan batas area penggunaan lahan. Panel bawah menampilkan nilai LST dan NDVI pada piksel tersebut.
+
+Legenda NDVI menggunakan ambang kategori yang disediakan: ≤ -0,0138 (air/area terbangun), > -0,0138–0,1275 (tanah terbuka), > 0,1275–0,2688 (vegetasi jarang), > 0,2688–0,4101 (vegetasi sedang), dan > 0,4101 (vegetasi lebat). Kategori merupakan interpretasi nilai NDVI, bukan klasifikasi tutupan lahan yang tervalidasi.
